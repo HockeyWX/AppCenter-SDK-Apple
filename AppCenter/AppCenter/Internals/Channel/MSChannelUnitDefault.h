@@ -28,11 +28,6 @@ NS_ASSUME_NONNULL_BEGIN
              logsDispatchQueue:(dispatch_queue_t)logsDispatchQueue;
 
 /**
- * Flush pending logs.
- */
-- (void)flushQueue;
-
-/**
  * Queue used to process logs.
  */
 @property(nonatomic) dispatch_queue_t logsDispatchQueue;
